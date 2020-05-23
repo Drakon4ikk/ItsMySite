@@ -1,7 +1,26 @@
 
 body {
- background: #c7b39b url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHblNUIn4LSBzBQpm0fPTUXjCzzUtzGzc1Z02ortDEe9cJlty1&usqp=CAU.jpg); color: #205D76;
+ background: #c7b39b url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHblNUIn4LSBzBQpm0fPTUXjCzzUtzGzc1Z02ortDEe9cJlty1&usqp=CAU.jpg); 
+ color: #205D76;
  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  background-color:#333a;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+img {
+  height: 200px;
+  border-radius: 5px;
+  margin: 10px;
+
+}
+
+.content-center {
+  width: 70%;
+   margin: auto;
 }
 
 .primary-header {

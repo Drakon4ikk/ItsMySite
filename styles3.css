@@ -1,0 +1,77 @@
+body {
+  background: #c7b39b url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHblNUIn4LSBzBQpm0fPTUXjCzzUtzGzc1Z02ortDEe9cJlty1&usqp=CAU.jpg); 
+  color: #1be3e0;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+main {
+  background-color:#333a;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+img {
+
+  transition-duration: 1s;
+}
+
+img:hover {
+  -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(249,255,172,0);
+  box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(249,255,172,0);
+  border-radius: 10%;
+}
+
+.content-center {
+  width: 70%;
+   margin: auto;
+}
+
+.primary-header {
+  text-align: center;
+}
+
+.store-list {
+  padding-left:640px;
+} 
+
+.store-section {
+  display: flex; 
+  display: -webkit-flex; 
+  margin: 40px auto; 
+  width: 450px;
+}
+
+.button {
+  width: 5px;
+  text-align: center;
+  padding: 2px;
+  border-radius: 10%;
+  color: red;
+}
+
+.button:hover {
+  padding: 2px;
+  background-color: #12fc0a;
+  color: black;
+
+}
+
+.button2 {
+  height: 15px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10%;
+  color: red;
+}
+
+.button2:hover {
+  padding: 3px;
+  background-color: #12fc0a;
+  color: black;
+
+}
+
+.transition {
+  transition: padding 0.3s ease-out, background-color 1.2s ease;
+}
